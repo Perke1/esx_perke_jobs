@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+body {
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+
+.slideshow-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.5;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+	width: 650px;
+	height: 800px;
+	border-radius: 5px;
+  }
+  
+ 
+  .job {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	color: white;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Unica One', cursive;
+	font-size: 20px; 
+	text-transform: uppercase;
+  }
+
+
+.container {
+	position: relative;
+	white-space: nowrap;
+	overflow-x: hidden;
+	height: 100em;
+	width: 100em;
+	top: 40vh;
+	margin: auto;
+	-webkit-transform: translateY(-7.2em);
+	transform: translateY(-7.2em);
+}
+
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: auto;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  
+  .next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+	opacity: 0.5;
+	background: rgb(2,16,255);
+	background: linear-gradient(90deg, rgba(2,16,255,1) 100%, rgba(0,212,255,1) 100%, rgba(4,0,251,1) 100%);
+	color: white;
+  }
+
+	p {margin: 10px;}
+
+
+.author {
+	position: relative;
+	bottom: 200px;
+	color: #ffffff; 
+	font-size: 24px;
+}
+
+.content {font-size: 16px;}
+
+.button {
+	position: relative;
+	top: 270px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  color: black;
+}
